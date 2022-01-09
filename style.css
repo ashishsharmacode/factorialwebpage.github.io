@@ -1,0 +1,79 @@
+@media only screen and (max-width: 720px)
+{
+body{
+background-color: #1569C7;
+}
+h1{
+padding-left:10vw;
+color:white;
+}
+#box{
+position: relative;
+min-Width:80vw;
+min-height:30vh;
+margin-top:15vw;
+margin-left:2vw;
+background-color:rgba(255,255,255,0.6);
+}
+#button{
+min-Width:20vw;
+min-Height:5vh;
+Border-radius:4vw;
+Background-color:green;
+outline:none;
+}
+#inputbox{
+margin-left:9vw;
+margin-top:5vh;
+min-Width:35vw;
+min-Height:4vh;
+background-color: white;
+Border-radius:4vw;
+outline:none;
+}
+#output{
+font-weight: bold;
+padding-top: 7vw;
+padding-left:8vw;
+}
+}
+/* for desktop*/
+@media only screen and (min-width:720px){
+body{
+background-color: yellow;
+}
+h1{
+padding-left:28vw;
+color:white;
+}
+
+#box{
+position: relative;
+min-width: 60vw;
+min-height:60vh;
+margin-top:5vw;
+margin-left:8vw;
+background-color:rgba(255,255,255,0.6);
+}
+#button{
+min-Width:10vw;
+min-height:9vh;
+Border-radius:4vw;
+Background-color:green;
+outline:none;
+}
+#inputbox{
+margin-left:5vw;
+margin-top:20vh;
+min-Width:20vw;
+min-Height:5vh;
+background-color: white;
+Border-radius:2vw;
+outline:none;
+}
+#output{
+font-weight: bold;
+padding-top:5vw;
+padding-left:5vw;
+}
+}
